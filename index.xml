@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>FaithfulSt3ward</title>
+    <link>https://faithfulst3ward.com/</link>
+    <description>Recent content on FaithfulSt3ward</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="https://faithfulst3ward.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>About Faithfulst3ward.com</title>
+      <link>https://faithfulst3ward.com/about/</link>
+      <pubDate>Wed, 01 Jul 2020 00:00:00 -0500</pubDate>
+      
+      <guid>https://faithfulst3ward.com/about/</guid>
+      <description>About This Site This site serves as a place to document how I setup various projects. It is first and foremost for my notes, but if you have stumbled across it I hope you find it useful.
+About FaithfulSt3ward  Christian Husband Father IT / Security Guy  </description>
+    </item>
+    
+    <item>
+      <title>FaithfulSt3ward&#39;s Homelab</title>
+      <link>https://faithfulst3ward.com/homelab/</link>
+      <pubDate>Wed, 01 Jul 2020 00:00:00 -0500</pubDate>
+      
+      <guid>https://faithfulst3ward.com/homelab/</guid>
+      <description>Current Inventory  1x Tripp Lite 6U Wall Mount Rack  1x UniFi Dream Machine Pro 1x Unifi Switch Pro 24 PoE 1x Unifi Pro Access Point 1x Synology 4 Bay NAS DiskStation DS918+  2x Samsung SM951 128GB 4x WD Red 4TB NAS Drive   1x Raspberry Pi 4 1U Rack-Mount Bracket  6x Raspberry Pi 4 Model B 6x Raspberry Pi PoE Hat 6x SanDisk 64GB Extreme MicroSD       </description>
+    </item>
+    
+  </channel>
+</rss>
