@@ -6,6 +6,7 @@
     <description>Recent content on FaithfulSt3ward</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <lastBuildDate>Wed, 01 Jul 2020 00:00:00 -0500</lastBuildDate>
     
 	<atom:link href="https://faithfulst3ward.com/index.xml" rel="self" type="application/rss+xml" />
     
@@ -27,6 +28,15 @@ About FaithfulSt3ward  Christian Husband Father IT / Security Guy  </description
       
       <guid>https://faithfulst3ward.com/homelab/</guid>
       <description>Current Inventory  1x Tripp Lite 6U Wall Mount Rack  1x UniFi Dream Machine Pro 1x Unifi Switch Pro 24 PoE 1x Unifi Pro Access Point 1x Synology 4 Bay NAS DiskStation DS918+  2x Samsung SM951 128GB 4x WD Red 4TB NAS Drive   1x Raspberry Pi 4 1U Rack-Mount Bracket  6x Raspberry Pi 4 Model B 6x Raspberry Pi PoE Hat 6x SanDisk 64GB Extreme MicroSD       </description>
+    </item>
+    
+    <item>
+      <title>Updating the Firmware on the Raspberry Pi 4</title>
+      <link>https://faithfulst3ward.com/guides/firmware-update-raspberry-pi/</link>
+      <pubDate>Wed, 01 Jul 2020 00:00:00 -0500</pubDate>
+      
+      <guid>https://faithfulst3ward.com/guides/firmware-update-raspberry-pi/</guid>
+      <description>Getting Started The Raspberry Pi 4 shipped with a firmware version that wasn&amp;rsquo;t fully optimized, and as a result it was prone to thermal throttling when under heavy load. An updated firmware has since come out that fixes the issue, and it&amp;rsquo;s an easy upgrade as long as your running Raspberry Pi OS. I don&amp;rsquo;t run Raspberry Pi OS, so I keep a spare MicroSD card with it installed and occasionally check for updates.</description>
     </item>
     
   </channel>

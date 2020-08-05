@@ -7,29 +7,32 @@
     <meta http-equiv="Content-Language" content="en">
 
     <meta name="author" content="FaithfulSt3ward">
-    <meta name="description" content="FaithfulSt3ward&#39;s Personal Website">
+    <meta name="description" content="Getting Started The Raspberry Pi 4 shipped with a firmware version that wasn&rsquo;t fully optimized, and as a result it was prone to thermal throttling when under heavy load. An updated firmware has since come out that fixes the issue, and it&rsquo;s an easy upgrade as long as your running Raspberry Pi OS. I don&rsquo;t run Raspberry Pi OS, so I keep a spare MicroSD card with it installed and occasionally check for updates.">
     <meta name="keywords" content="IT,Security,Church">
 
     
 
     <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="404 Page not found"/>
-<meta name="twitter:description" content="FaithfulSt3ward&#39;s Personal Website"/>
+<meta name="twitter:title" content="Updating the Firmware on the Raspberry Pi 4"/>
+<meta name="twitter:description" content="Getting Started The Raspberry Pi 4 shipped with a firmware version that wasn&rsquo;t fully optimized, and as a result it was prone to thermal throttling when under heavy load. An updated firmware has since come out that fixes the issue, and it&rsquo;s an easy upgrade as long as your running Raspberry Pi OS. I don&rsquo;t run Raspberry Pi OS, so I keep a spare MicroSD card with it installed and occasionally check for updates."/>
 
-    <meta property="og:title" content="404 Page not found" />
-<meta property="og:description" content="FaithfulSt3ward&#39;s Personal Website" />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="https://faithfulst3ward.com/404.html" />
+    <meta property="og:title" content="Updating the Firmware on the Raspberry Pi 4" />
+<meta property="og:description" content="Getting Started The Raspberry Pi 4 shipped with a firmware version that wasn&rsquo;t fully optimized, and as a result it was prone to thermal throttling when under heavy load. An updated firmware has since come out that fixes the issue, and it&rsquo;s an easy upgrade as long as your running Raspberry Pi OS. I don&rsquo;t run Raspberry Pi OS, so I keep a spare MicroSD card with it installed and occasionally check for updates." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://faithfulst3ward.com/guides/firmware-update-raspberry-pi/" />
+<meta property="article:published_time" content="2020-07-01T00:00:00-05:00" />
+<meta property="article:modified_time" content="2020-07-01T00:00:00-05:00" />
 
-
-
-    
-      <base href="https://faithfulst3ward.com/404.html">
-    
-    <title>FaithfulSt3ward</title>
 
     
-      <link rel="canonical" href="https://faithfulst3ward.com/404.html">
+      <base href="https://faithfulst3ward.com/guides/firmware-update-raspberry-pi/">
+    
+    <title>
+  Updating the Firmware on the Raspberry Pi 4 · FaithfulSt3ward
+</title>
+
+    
+      <link rel="canonical" href="https://faithfulst3ward.com/guides/firmware-update-raspberry-pi/">
     
 
     <link href="https://fonts.googleapis.com/css?family=Lato:400,700%7CMerriweather:300,700%7CSource+Code+Pro:400,700&display=swap" rel="stylesheet">
@@ -107,14 +110,22 @@
 
       <div class="content">
         
-  <section class="container centered">
-  <div class="error">
-    <h1>404</h1>
-    <h2>Page Not Found</h2>
-    <p>Sorry, this page does not exist.<br />You can head back to <a href="https://faithfulst3ward.com">homepage</a>.</p>
-  </div>
+  <section class="container page">
+  <article>
+    <header>
+      <h1>Updating the Firmware on the Raspberry Pi 4</h1>
+    </header>
+
+    <h2 id="getting-started">Getting Started</h2>
+<p>The Raspberry Pi 4 shipped with a firmware version that wasn&rsquo;t fully optimized, and as a result it was prone to thermal throttling when under heavy load.  An updated firmware has since come out that fixes the issue, and it&rsquo;s an easy upgrade as long as your running Raspberry Pi OS.  I don&rsquo;t run Raspberry Pi OS, so I keep a spare MicroSD card with it installed and occasionally check for updates.  It&rsquo;s as simple as booting up with Raspberry Pi OS and running:</p>
+<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback"> sudo apt update &amp;&amp; sudo apt full-upgrade -y
+</code></pre></div><p>You can check and see what version you&rsquo;re on by running:</p>
+<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">sudo rpi-eeprom-update
+</code></pre></div>
+  </article>
 </section>
 
+  
 
       </div>
 
